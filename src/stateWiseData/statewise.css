@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin-top: 2rem;
+}
+
+.main-heading{
+    color: black;
+}
+.text-center{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.font-weight-bold{
+    font-weight: bolder;
+}
+.table-responsive{
+    max-height: 400px;
+    width: fit-content;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    box-shadow: 5px, 10px, 20px, 20px rgba(0,0,0,1);
+}
+.thead-dark{
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: black;
+}
+th{
+    height: 3rem;
+    font-size: large;
+    width: 10rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    
+}
+th:hover{
+    background-color: gray;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    height: 2rem;    
+}
+tr:hover{
+    background-color: lightgray;
+}
+td:hover{
+    background-color: rgb(134, 194, 44);
+    border: black 2px;
+    border-style: solid;
+}
+.deathdata:hover{
+    background-color: rgb(251, 68, 68);
+}
+
+.statedata:hover{
+    background-color: inherit;
+}
+
+.statedata{
+    font-size: 1.2rem;
+}
